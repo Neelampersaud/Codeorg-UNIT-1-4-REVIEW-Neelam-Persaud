@@ -1,0 +1,147 @@
+html, body {
+  height:  100%;
+  width: 100%: 
+}
+*{
+  box-sizing: border-box;
+}
+h1,h2,h3,h4{
+  font-size: 0.6em;
+}
+body{
+  background-color: #c18bd0;
+  color: #8729b3;
+  text-align: center;
+  vertical-align: super;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#logo{
+  width: 50px;
+  position: relative;
+  top: 100px;
+  right:70px;
+}
+.banner{
+  background-color: rgba(159,166,104,0,2);
+  margin: 15px;
+  padding: 10px;
+  height:200px;
+  border: 3px solid #a536c4;
+  box-shadow: 5px 2px 2px 5px #a112e2;
+  outline-offset: 1px
+  outline: groove 2px #d065d2;
+  text-transform:  capitalize;
+  text-shadow: 1px 1px #d246c7dd;
+  font-family: feDistantLight;
+  font-size: 1.2em;
+  text-align: center;
+  
+}
+.menu {
+  margin:10px;
+  padding: 10px;
+  overflow: hidden;
+  position: absolute;
+  left: 10px;
+  top: 0px;
+  font-size: 2em;
+  text-align: center;
+  z-index: 1;
+}
+.menu a{
+  background-color: #b166cc44;
+  display: none;
+  color: #9c42cd; 
+  padding: 2px;
+  font-size: 0.5em;
+}
+.menu:hover a{
+  display: block;
+}
+.menu a:hover{
+  background-color: #b886d0;
+  color: #e6a5f8;
+}
+
+
+
+
+
+
+.container {
+  border: 2px solid #e88af5;
+  background-image: repeating-linear-gradient(#b960d2, #e4b4ee, #bc83c3);
+  position: ralative;
+  height: 500px; 
+  overflow:hidden;
+}
+.wave{
+  border: 1px dotted #d980e5;
+  background-image: radial-gradient(rgba(207, 114, 202), rgba(212, 142, 207), #bd9ddd, #8b64b9);
+  height:20px;
+  width:80%;
+  position: relative;
+  left: 10%;
+  transition: height 4s;
+  display: block;
+  overflow: hidden;
+}
+#u1{
+  transition: height 4s
+}
+#u1:hover{
+  height: 400px;
+  z-index;1;
+}
+#u2{
+  transition: height 4s
+}
+#u2:hover{
+  height: 400px;
+  z-index;1;
+}
+#u3{
+  transition: height 4s
+}
+#u3:hover{
+  height: 400px;
+  z-index;1;
+}
+#u4{
+  transition: height 4s
+}
+#u4:hover{
+  height: 400px;
+  z-index;1;
+}
+
+#top{
+  border: 1px solid red;
+  position: relative;
+  top: 5px ;
+  left: 1px;
+  right: 1px;
+  padding: 2px;
+  margin: 2px;
+  width: 99%;
+}
+
+#right{
+  border: 1px solid #904bbe;
+  position: absolute;
+  right: 1px;
+  margin: 2px;
+  padding: 2px;
+  height: 1400px;
+  width: 49.5%;
+}
+
+#left{
+  border: 1px solid #904bbe;
+  position: absolute;
+  left: 1px;
+  margin: 2px;
+  padding: 2px;
+  height: 1400px;
+  width: 49.5%;
+}
